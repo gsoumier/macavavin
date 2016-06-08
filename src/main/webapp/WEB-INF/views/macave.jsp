@@ -1,4 +1,4 @@
-﻿<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+﻿﻿<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
@@ -16,7 +16,7 @@
         <div id="navbar" class="navbar-collapse collapse">
             <form class="navbar-form navbar-right">
                 <div class="form-group">
-                    <input type="text" placeholder="Appelation, producteur, ..." class="form-control">
+                    <input type="text" placeholder="Appelation, producteur" class="form-control">
                 </div>
                 <button type="submit" class="btn btn-success">Rechercher</button>
             </form>
