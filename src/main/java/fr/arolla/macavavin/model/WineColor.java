@@ -2,10 +2,20 @@ package fr.arolla.macavavin.model;
 
 public enum WineColor {
 
-    RED,
+    RED("Vin rouge"),
 
-    ROSE,
+    ROSE("Vin rosé"),
 
-    WHITE
+    WHITE("Vin blanc");
+
+    private String label;
+
+    WineColor(String label) {
+        this.label = label;
+    }
+
+    public String getLabel(){
+        return label;
+    }
 
 }

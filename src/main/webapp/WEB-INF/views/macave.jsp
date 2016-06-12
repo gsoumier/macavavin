@@ -38,10 +38,10 @@
 
     <c:forEach items="${bottles}" var="bottle">
         <div class="panel panel-default">
-            <div class="panel-heading">${bottle.appellation} - ${bottle.producer}</div>
+            <div class="panel-heading">${bottle.appellation} - ${bottle.color.label}</div>
             <div class="panel-body">
-                    ${bottle.color}
-                    ${bottle.plot}
+                ${bottle.producer}
+                ${bottle.plot}
             </div>
         </div>
     </c:forEach>
