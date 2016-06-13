@@ -28,7 +28,10 @@
 <div class="jumbotron">
     <div class="container">
         <h1>Macavavin</h1>
-        <p>Bienvenue dans votre cave à vin, vous pouvez visualiser l'ensemble des bouteilles actuellement en cave ...</p>
+        <p>Bienvenue dans votre cave à vin.
+            Vous pouvez visualiser l'ensemble des bouteilles actuellement en cave.
+            Vous avez actuellement ${bottles.size()} bouteilles.
+        </p>
         <p><a class="btn btn-primary" href="#" role="button">Ajouter</a></p>
     </div>
 </div>
